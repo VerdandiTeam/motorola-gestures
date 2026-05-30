@@ -1,0 +1,16 @@
+{
+    "translation_catalog": "motorola-gestures-settings",
+    "entries": [
+        {
+            "path": "system_settings/look_and_feel/motorola-gestures",
+            "title": "Motorola gestures",
+            "translation_id": "motorola-gestures-settings-title",
+            "type": "page",
+            "icon": "image://theme/icon-m-gesture",
+            "order": 401,
+            "params": {
+                "source": "/usr/share/jolla-settings/pages/motorola-gestures/Settings.qml"
+            }
+        }
+    ]
+}
