@@ -16,6 +16,7 @@ DISTFILES += qml/miami-gestures.qml \
     qml/Settings.qml \
     rpm/motorola-gestures.spec \
     motorola-gestures-settings.json \
+    motorola-gestures.service \
     i18n/*.ts
 
 HEADERS += \
@@ -37,6 +38,9 @@ pages.files = qml/Settings.qml
 translations.path = /usr/share/translations
 translations.files = i18n/*.qm
 
+systemduser.files = $${TARGET}.service
+systemduser.path = /usr/lib/systemd/user/
+
 system(lrelease -idbased $$PWD/i18n/*.ts)
 
-INSTALLS += target entries pages translations
+INSTALLS += target entries pages translations systemduser

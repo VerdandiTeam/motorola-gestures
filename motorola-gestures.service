@@ -1,0 +1,10 @@
+[Unit]
+Description=Motorola gestures daemon
+Requires=lipstick.service sensorfwd.service
+After=user-session.target lipstick.service
+
+[Service]
+ExecStart=/usr/bin/motorola-gestures
+
+[Install]
+WantedBy=post-user-session.target
