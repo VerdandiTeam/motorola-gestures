@@ -1,6 +1,6 @@
 [Unit]
 Description=Motorola gestures daemon
-Requires=lipstick.service sensorfwd.service
+Requires=lipstick.service
 After=user-session.target lipstick.service
 
 [Service]
