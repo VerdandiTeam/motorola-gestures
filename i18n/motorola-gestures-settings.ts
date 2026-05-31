@@ -20,7 +20,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message id="motorola-gestures-camera-description">
-        <source>Flip device twice in quick successions in order to launch camera</source>
+        <source>Twitst your wrist twice in quick successions in order to launch camera</source>
         <translation type="unfinished"></translation>
     </message>
     <message id="motorola-gestures-lift">
